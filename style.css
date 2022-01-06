@@ -3,7 +3,12 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
+}
+.text-border{
+    border-left: 4px solid;
+    padding-left: 10px;
+    border-color: orange;
 }
 .add-color{
     color: tomato;
@@ -29,4 +34,29 @@ h1{
     border-radius: 5%;
     color: white;
     font-weight: 700;
+}
+.area{
+    text-align: center;
+}
+.item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bg-mission{
+    background-color: rgb(173, 171, 150);
+    border-radius: 10%;
+}
+#bg-vission{
+    background-color: rgb(245, 245, 167);
+    border-radius: 10%;
+}
+#bg-goal{
+    background-color: rgb(199, 218, 243);
+    border-radius: 10%;
+}
+img{
+    width: 50%;
 }
