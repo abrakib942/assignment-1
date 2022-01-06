@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .text-border{
     border-left: 4px solid;
@@ -33,7 +33,6 @@ h1{
     padding: 5px 10px;
     border-radius: 5%;
     color: white;
-    font-weight: 700;
 }
 .area{
     text-align: center;
@@ -59,4 +58,10 @@ h1{
 }
 img{
     width: 50%;
+}
+.bg-image{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
 }
